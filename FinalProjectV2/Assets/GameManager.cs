@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public void LoadMushroomLayer()
     {
         mushroomLayer.SetActive(true);
-        Invoke("RemoveGrassLayer", 15);
+        Invoke("RemoveGrassLayer", 10);
     }
 
     private void RemoveGrassLayer()
