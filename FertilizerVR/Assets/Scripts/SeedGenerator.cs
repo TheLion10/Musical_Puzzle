@@ -55,6 +55,7 @@ public class SeedGenerator : MonoBehaviour
 
     void CreateGrass()
     {
+        grass.transform.SetParent(null);
         grass.SetActive(true);
     }
 }
