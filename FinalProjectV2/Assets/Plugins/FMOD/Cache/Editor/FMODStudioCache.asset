@@ -1,5 +1,265 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8668195977135469169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.footsteps_on_ground3_1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.footsteps_on_ground3_1
+  Guid:
+    Data1: 1177553995
+    Data2: 1089129583
+    Data3: -209277017
+    Data4: 578338263
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 620
+--- !u!114 &-7269947272591476499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.ShovelDig
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.ShovelDig
+  Guid:
+    Data1: -837321279
+    Data2: 1153404049
+    Data3: -1079488322
+    Data4: -751904877
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2000
+--- !u!114 &-6381462373277797295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/BGM_Parameter/Parameter 1
+  m_EditorClassIdentifier: 
+  Name: Parameter 1
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 2119282077
+    data2: 2167802760
+  Type: 1
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
+--- !u!114 &-4607588368179606677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.MushroomGrowth
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.MushroomGrowth
+  Guid:
+    Data1: -2141997817
+    Data2: 1238397724
+    Data3: -986279296
+    Data4: -1128034816
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7497
+--- !u!114 &-3419080074166138947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD -  Musical Puzzle/musical puzzle/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638108471674346763
+  FileSizes:
+  - Name: Desktop
+    Value: 7906720
+  Exists: 1
+--- !u!114 &-2836745896021248204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb.forest2
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb.forest2
+  Guid:
+    Data1: -558142934
+    Data2: 1178482740
+    Data3: -318359159
+    Data4: 2088627289
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 120138
+--- !u!114 &-812022379630400020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BGM_Stage1
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BGM_Stage1
+  Guid:
+    Data1: 102718548
+    Data2: 1243172639
+    Data3: 902375568
+    Data4: 485527041
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 86186
+--- !u!114 &-656018610349732763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.footsteps_on_grass_1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.footsteps_on_grass_1
+  Guid:
+    Data1: -1803130362
+    Data2: 1276636235
+    Data3: -1000014677
+    Data4: -2134447916
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 660
+--- !u!114 &-339715635786563270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.SeedsFall
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.SeedsFall
+  Guid:
+    Data1: 1368910748
+    Data2: 1074673239
+    Data3: -589502311
+    Data4: -1985578339
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7497
+--- !u!114 &-73740014817509335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BGM_Stage3
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BGM_Stage3
+  Guid:
+    Data1: 207920554
+    Data2: 1182183761
+    Data3: -1252909691
+    Data4: -1747591510
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 92130
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12,10 +272,183 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
-  EditorBanks: []
-  EditorEvents: []
+  EditorBanks:
+  - {fileID: 6280313855256579303}
+  - {fileID: -3419080074166138947}
+  EditorEvents:
+  - {fileID: -656018610349732763}
+  - {fileID: -4607588368179606677}
+  - {fileID: 2085849370804961814}
+  - {fileID: -2836745896021248204}
+  - {fileID: -8668195977135469169}
+  - {fileID: -812022379630400020}
+  - {fileID: 4957030434260876064}
+  - {fileID: -339715635786563270}
+  - {fileID: 169102497291016056}
+  - {fileID: -73740014817509335}
+  - {fileID: 3318339764726114875}
+  - {fileID: -7269947272591476499}
+  - {fileID: 4353524638860882905}
   EditorParameters: []
-  MasterBanks: []
-  StringsBanks: []
-  cacheTime: 0
+  MasterBanks:
+  - {fileID: -3419080074166138947}
+  StringsBanks:
+  - {fileID: 6280313855256579303}
+  cacheTime: 638108471674616497
   cacheVersion: 131601
+--- !u!114 &169102497291016056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.grass_grows
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.grass_grows
+  Guid:
+    Data1: 2076120480
+    Data2: 1253090616
+    Data3: 861707663
+    Data4: -1091515597
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 13426
+--- !u!114 &2085849370804961814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/amb/amb.forest1
+  m_EditorClassIdentifier: 
+  Path: event:/amb/amb.forest1
+  Guid:
+    Data1: 1765976869
+    Data2: 1274181040
+    Data3: -1313006659
+    Data4: 954157563
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 218410
+--- !u!114 &3318339764726114875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.PickUp_Mushroom_1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.PickUp_Mushroom_1
+  Guid:
+    Data1: 70218421
+    Data2: 1280615477
+    Data3: 122019472
+    Data4: -350798820
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1230
+--- !u!114 &4353524638860882905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BGM_Parameter
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BGM_Parameter
+  Guid:
+    Data1: -925952005
+    Data2: 1239412205
+    Data3: 1050275223
+    Data4: -2091632146
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6381462373277797295}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 92130
+--- !u!114 &4957030434260876064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BGM_Stage2
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BGM_Stage2
+  Guid:
+    Data1: -17756030
+    Data2: 1281328359
+    Data3: -154948944
+    Data4: 1319336049
+  Banks:
+  - {fileID: -3419080074166138947}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 92130
+--- !u!114 &6280313855256579303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD -  Musical Puzzle/musical puzzle/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638108471674616497
+  FileSizes:
+  - Name: Desktop
+    Value: 1394
+  Exists: 1
