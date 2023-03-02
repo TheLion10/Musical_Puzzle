@@ -381,6 +381,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f915116f3610dd46a9b42a2bcc2f292, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  paws:
+  - {fileID: 1634872685}
+  - {fileID: 1477637430}
+  - {fileID: 696023132}
+  - {fileID: 1010239577}
+  - {fileID: 527844789}
+  - {fileID: 1154194897}
+  - {fileID: 1265149617}
+  - {fileID: 1736176650}
+  - {fileID: 860379039}
+  - {fileID: 417509875}
+  - {fileID: 722264478}
+  - {fileID: 1607018751}
+  - {fileID: 279563572}
 --- !u!1 &208368627
 GameObject:
   m_ObjectHideFlags: 0
@@ -5898,7 +5912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1641099877
 Transform:
   m_ObjectHideFlags: 0
@@ -6553,14 +6567,14 @@ MonoBehaviour:
   - enabled: 1
     name: grass01
     seed: 0
-    probability: 25
+    probability: 0
     collisionCheck: 0
     rejectUnderwater: 0
     heightRange: {x: 0, y: 1000}
     slopeRange: {x: 0, y: 60}
     curvatureRange: {x: 0, y: 1}
     layerMasks: []
-    instanceCount: 253433
+    instanceCount: 0
     index: 0
     type: 0
     renderAsBillboard: 0

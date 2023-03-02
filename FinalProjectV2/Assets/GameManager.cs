@@ -17,12 +17,12 @@ public class GameManager : MonoBehaviour
     public void LoadMushroomLayer()
     {
         mushroomLayer.SetActive(true);
-        Invoke("RemoveGrassLayer", 10);
+        // Invoke("RemoveGrassLayer", 10);
     }
     public void LoadFlowerLayer()
     {
         flowerLayer.SetActive(true);
-        Invoke("RemoveMushroomLayer", 10);
+        // Invoke("RemoveMushroomLayer", 10);
     }
 
     private void RemoveGrassLayer()
