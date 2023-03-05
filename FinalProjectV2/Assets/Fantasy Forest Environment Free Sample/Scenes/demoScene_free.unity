@@ -1511,34 +1511,34 @@ MonoBehaviour:
     probability: 100
     collisionCheck: 0
     rejectUnderwater: 0
-    heightRange: {x: 0, y: 1000}
-    slopeRange: {x: 5, y: 30}
+    heightRange: {x: 0.28327924, y: 2.3606603}
+    slopeRange: {x: 6.626507, y: 12.650604}
     curvatureRange: {x: 0, y: 1}
     layerMasks: []
-    instanceCount: 41
+    instanceCount: 759
     prefabs:
     - index: 0
       probability: 100
       prefab: {fileID: 100012, guid: ea6f314e6374b0f4d8c00e1cbd3c710d, type: 3}
-    distance: 5
+    distance: 0.5
     scaleRange: {x: 1.8722892, y: 2}
     sinkAmount: 0.331
   - enabled: 1
     name: Furniture_foliageplant_09_lod_set
-    seed: 23296
+    seed: 32051
     probability: 100
     collisionCheck: 0
     rejectUnderwater: 0
-    heightRange: {x: 0, y: 1000}
+    heightRange: {x: 1.133117, y: 2.7855792}
     slopeRange: {x: 5, y: 22.409637}
     curvatureRange: {x: 0, y: 1}
     layerMasks: []
-    instanceCount: 36
+    instanceCount: 645
     prefabs:
     - index: 1
       probability: 100
       prefab: {fileID: 100012, guid: 278282600c6c47e4cb2b53dc2757c7c3, type: 3}
-    distance: 5
+    distance: 0.5
     scaleRange: {x: 2, y: 2}
     sinkAmount: 0.481
   grassPrefabs:
@@ -1568,14 +1568,14 @@ MonoBehaviour:
   - enabled: 1
     name: BigUmbrella
     seed: 6226
-    probability: 0.01
+    probability: 0
     collisionCheck: 0
     rejectUnderwater: 0
     heightRange: {x: 0, y: 1000}
     slopeRange: {x: 0, y: 90}
     curvatureRange: {x: 0, y: 1}
     layerMasks: []
-    instanceCount: 68
+    instanceCount: 0
     index: 1
     type: 0
     renderAsBillboard: 0
@@ -1591,14 +1591,14 @@ MonoBehaviour:
   - enabled: 1
     name: Boletus
     seed: 91817
-    probability: 0.01
+    probability: 0
     collisionCheck: 0
     rejectUnderwater: 0
     heightRange: {x: 0, y: 1000}
     slopeRange: {x: 0, y: 90}
     curvatureRange: {x: 0, y: 1}
     layerMasks: []
-    instanceCount: 82
+    instanceCount: 0
     index: 2
     type: 0
     renderAsBillboard: 0
@@ -1614,14 +1614,14 @@ MonoBehaviour:
   - enabled: 1
     name: Russula
     seed: 48624
-    probability: 0.01
+    probability: 0
     collisionCheck: 0
     rejectUnderwater: 0
     heightRange: {x: 0, y: 1000}
     slopeRange: {x: 0, y: 90}
     curvatureRange: {x: 0, y: 1}
     layerMasks: []
-    instanceCount: 74
+    instanceCount: 0
     index: 3
     type: 0
     renderAsBillboard: 0
@@ -1637,14 +1637,14 @@ MonoBehaviour:
   - enabled: 1
     name: ChanterellesLow
     seed: 87690
-    probability: 0.01
+    probability: 0
     collisionCheck: 0
     rejectUnderwater: 0
     heightRange: {x: 0, y: 1000}
     slopeRange: {x: 0, y: 90}
     curvatureRange: {x: 0, y: 1}
     layerMasks: []
-    instanceCount: 85
+    instanceCount: 0
     index: 4
     type: 0
     renderAsBillboard: 0
@@ -8094,7 +8094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7851249028099862300, guid: 1bc490b360c4fa3459e7f7a3ed7b9802, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc490b360c4fa3459e7f7a3ed7b9802, type: 3}
