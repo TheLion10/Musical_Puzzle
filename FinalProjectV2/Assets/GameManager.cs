@@ -8,6 +8,8 @@ public class GameManager : MonoBehaviour
     public GameObject grassLayer;
     public GameObject mushroomLayer;
     public GameObject flowerLayer;
+
+    public GameObject treeLayer;
     
     public void LoadGrassLayer()
     {
@@ -23,6 +25,11 @@ public class GameManager : MonoBehaviour
     {
         flowerLayer.SetActive(true);
         // Invoke("RemoveMushroomLayer", 10);
+    }
+    
+    public void LoadTreeLayer()
+    {
+        treeLayer.SetActive(true);
     }
 
     private void RemoveGrassLayer()
