@@ -4,8 +4,15 @@ using UnityEngine;
 
 public class PickaxeBehaviour : MonoBehaviour
 {
+    public GameObject iceBlock;
     void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Ice"))
         {
-            Debug.Log("AAA!");
+            iceBlock.SetActive(true);
+            iceBlock.transform.SetParent(null);
+            iceBlock.GetComponent<Rigidbody>().AddForce(-0.5f * transform.forward);
+            gameObject.SetActive(false);
         }
+    }
 }

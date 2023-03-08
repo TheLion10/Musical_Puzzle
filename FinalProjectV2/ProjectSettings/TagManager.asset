@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Hill
   - Ground
+  - Ice
   layers:
   - Default
   - TransparentFX

@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3eed519a-f1b6-43e3-a4f0-8b9dc8edf5c2" name="Changes" comment="" />
+    <list default="true" id="ef1fbe6a-aadb-457d-bda0-64c2d74a9ccc" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/../GameManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RootBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../WaterRiddle/PickaxeBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2MeOOQZYs1cZ2FF03doTWVJIsoi" />
+  <component name="ProjectId" id="2MkCa41jOgXWkH4btVdS73Dv0Tk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,12 +27,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3eed519a-f1b6-43e3-a4f0-8b9dc8edf5c2" name="Changes" comment="" />
-      <created>1678124553980</created>
+      <changelist id="ef1fbe6a-aadb-457d-bda0-64c2d74a9ccc" name="Changes" comment="" />
+      <created>1678302255783</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1678124553980</updated>
-      <workItem from="1678124558706" duration="6161000" />
+      <updated>1678302255783</updated>
+      <workItem from="1678302261994" duration="2048000" />
     </task>
     <servers />
   </component>
