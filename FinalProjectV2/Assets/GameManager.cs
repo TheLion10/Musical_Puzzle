@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     
     public void LoadGrassLayer()
     {
-        terrainLayer.SetActive(false);
+        Invoke("RemoveTerrainLayer", 10);
         grassLayer.SetActive(true);
     }
     public void LoadMushroomLayer()
@@ -44,5 +44,9 @@ public class GameManager : MonoBehaviour
     private void RemoveMushroomLayer()
     {
         mushroomLayer.SetActive(false);
+    }
+    private void RemoveTerrainLayer()
+    {
+        terrainLayer.SetActive(false);
     }
 }
