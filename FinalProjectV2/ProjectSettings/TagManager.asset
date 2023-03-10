@@ -8,6 +8,8 @@ TagManager:
   - Ground
   - Ice
   - FireRock
+  - IceBlock
+  - Fire
   layers:
   - Default
   - TransparentFX
