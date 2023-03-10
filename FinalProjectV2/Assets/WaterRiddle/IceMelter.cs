@@ -9,10 +9,8 @@ public class IceMelter : MonoBehaviour
     
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("OOO!");
         if (collision.gameObject.CompareTag("Fire"))
         {
-            Debug.Log("ICE!");
             water.gameObject.transform.position = gameObject.transform.position;
             fire.SetActive(false);
             water.SetActive(true);
