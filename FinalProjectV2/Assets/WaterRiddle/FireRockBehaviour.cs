@@ -10,7 +10,7 @@ public class FireRockBehaviour : MonoBehaviour
     {
         if (!litFire && collision.gameObject.CompareTag("FireRock"))
         {
-            fire.transform.position = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
+            fire.transform.position = new Vector3(transform.position.x, transform.position.y - 0.3f, transform.position.z);
             fire.transform.up = Vector3.up;
                 fire.SetActive(true);
             fire.transform.SetParent(null);
