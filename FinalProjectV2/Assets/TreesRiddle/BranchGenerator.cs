@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BranchGenerator : MonoBehaviour
 {
     public GameObject branch;
-    private int rootsCounter = 0;
+    private int rootsCounter;
 
     public void Increase()
     {

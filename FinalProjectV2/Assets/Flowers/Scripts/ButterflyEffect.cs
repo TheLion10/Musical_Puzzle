@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ButterflyEffect : MonoBehaviour
@@ -8,6 +6,7 @@ public class ButterflyEffect : MonoBehaviour
     private Vector3 direction;
     private Vector3 startingDirection;
     private Vector3 startingPos;
+    private Vector3 flowerPos;
     private float force = 0.1f;
     private float landingEps = 20f;
     private float restartEps = 2f;
@@ -16,7 +15,8 @@ public class ButterflyEffect : MonoBehaviour
     void Start()
     {
         startingPos = transform.position;
-        startingDirection = new Vector3(flower.transform.position.x - transform.position.x, 0, flower.transform.position.z - transform.position.z).normalized;
+        flowerPos = flower.transform.position;
+        startingDirection = new Vector3(flowerPos.x - transform.position.x, 0, flowerPos.z - transform.position.z).normalized;
         direction = startingDirection;
         transform.forward = direction;
     }
@@ -25,12 +25,12 @@ public class ButterflyEffect : MonoBehaviour
     void Update()
     {
         if (Vector2.Distance(new Vector2(transform.position.x, transform.position.z),
-                new Vector2(flower.transform.position.x, flower.transform.position.z)) < landingEps)
+                new Vector2(flowerPos.x, flowerPos.z)) < landingEps)
         {
-            direction = flower.transform.position - transform.position;
+            direction = flowerPos - transform.position;
         }
 
-        if (Vector3.Distance(transform.position, flower.transform.position) < restartEps)
+        if (Vector3.Distance(transform.position, flowerPos) < restartEps)
         {
             transform.position = startingPos;
             GetComponent<Rigidbody>().velocity = Vector3.zero;

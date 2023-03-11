@@ -1,13 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FootstepsGenerator : MonoBehaviour
 {
     public GameObject[] paws;
-    private int pawIdx = 0;
+    private int pawIdx;
 
-    private int waitTime = 0;
+    private int waitTime;
     // Start is called before the first frame update
     void Start()
     {

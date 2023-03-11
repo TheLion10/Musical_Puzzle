@@ -1,17 +1,11 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
-using Unity.XR.CoreUtils;
 using UnityEngine;
-using Random = UnityEngine.Random;
 
 public class SeedGenerator : MonoBehaviour
 {
     public GameObject Bag;
     public GameObject grass;
-    private bool hitHill = false;
-    private bool isFalling = false;
+    private bool hitHill;
+    private bool isFalling;
 
     // Update is called once per frame
     void Update()

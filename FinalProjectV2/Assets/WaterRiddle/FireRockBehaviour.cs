@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FireRockBehaviour : MonoBehaviour
 {
     public GameObject fire;
-    private bool litFire = false;
+    private bool litFire;
     void OnCollisionEnter(Collision collision)
     {
         if (!litFire && collision.gameObject.CompareTag("FireRock"))
