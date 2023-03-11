@@ -5,13 +5,16 @@ using UnityEngine;
 public class FireRockBehaviour : MonoBehaviour
 {
     public GameObject fire;
+    private bool litFire = false;
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("FireRock"))
+        if (!litFire && collision.gameObject.CompareTag("FireRock"))
         {
-            fire.transform.position = transform.position;
+            fire.transform.position = new Vector3(transform.position.x, transform.position.y - 0.5f, transform.position.z);
+            fire.transform.up = Vector3.up;
                 fire.SetActive(true);
             fire.transform.SetParent(null);
+            litFire = true;
         }
     }
 }

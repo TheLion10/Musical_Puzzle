@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
 
     public void LoadGrassLayer()
     {
-        Invoke("RemoveTerrainLayer", 10);
+        Invoke("RemoveTerrainLayer", 8);
         grassLayer.SetActive(true);
     }
 

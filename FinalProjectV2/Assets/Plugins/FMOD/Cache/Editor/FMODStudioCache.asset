@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: -209277017
     Data4: 578338263
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -27,6 +27,53 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 620
+--- !u!114 &-8171171916691204106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Sound/musical puzzle/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638140615270000000
+  FileSizes:
+  - Name: Desktop
+    Value: 2274
+  Exists: 1
+--- !u!114 &-7906763940005848505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.Buttefly
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.Buttefly
+  Guid:
+    Data1: 916691506
+    Data2: 1283474172
+    Data3: -1117845835
+    Data4: -948307153
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12669
 --- !u!114 &-7269947272591476499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -46,7 +93,7 @@ MonoBehaviour:
     Data3: -1079488322
     Data4: -751904877
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -54,6 +101,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 2000
+--- !u!114 &-6846423043205547273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.IceHit2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.IceHit2
+  Guid:
+    Data1: 1032219806
+    Data2: 1114023503
+    Data3: -1264999546
+    Data4: 561448730
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12460
 --- !u!114 &-6381462373277797295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +143,7 @@ MonoBehaviour:
   Name: Parameter 1
   StudioPath: 
   Min: 0
-  Max: 2
+  Max: 5
   Default: 0
   ID:
     data1: 2119282077
@@ -78,6 +152,33 @@ MonoBehaviour:
   IsGlobal: 0
   Labels: []
   Exists: 1
+--- !u!114 &-4869753530637182528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.PickUpFlower
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.PickUpFlower
+  Guid:
+    Data1: 408958771
+    Data2: 1314509627
+    Data3: 497453224
+    Data4: -356378952
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1541
 --- !u!114 &-4607588368179606677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,7 +198,7 @@ MonoBehaviour:
     Data3: -986279296
     Data4: -1128034816
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -105,7 +206,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7497
---- !u!114 &-3419080074166138947
+--- !u!114 &-4428548952220834846
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,17 +215,78 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.IceFalls
   m_EditorClassIdentifier: 
-  Path: ../FMOD -  Musical Puzzle/musical puzzle/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638108471674346763
-  FileSizes:
-  - Name: Desktop
-    Value: 7906720
-  Exists: 1
+  Path: event:/SFX/SFX.IceFalls
+  Guid:
+    Data1: 1965213603
+    Data2: 1154127606
+    Data3: 721667504
+    Data4: -15561105
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12669
+--- !u!114 &-3199477928344976367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.AnimalFootStep2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.AnimalFootStep2
+  Guid:
+    Data1: 414718488
+    Data2: 1182858580
+    Data3: 1831350689
+    Data4: 555826844
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3434
+--- !u!114 &-2920782664603132040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.IceMelts
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.IceMelts
+  Guid:
+    Data1: -718423667
+    Data2: 1213949605
+    Data3: -2137649765
+    Data4: -1942351043
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12669
 --- !u!114 &-2836745896021248204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -144,7 +306,7 @@ MonoBehaviour:
     Data3: -318359159
     Data4: 2088627289
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -152,6 +314,53 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 120138
+--- !u!114 &-2145461706221561477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../../Sound/musical puzzle/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638140615270000000
+  FileSizes:
+  - Name: Desktop
+    Value: 13401696
+  Exists: 1
+--- !u!114 &-1227078622991119807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.RocksHitEachother1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.RocksHitEachother1
+  Guid:
+    Data1: 1331449126
+    Data2: 1228840741
+    Data3: 542774457
+    Data4: -106562255
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3030
 --- !u!114 &-812022379630400020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,14 +380,41 @@ MonoBehaviour:
     Data3: 902375568
     Data4: 485527041
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 86186
+--- !u!114 &-702863121018381244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.IceHit3
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.IceHit3
+  Guid:
+    Data1: 117311893
+    Data2: 1129993563
+    Data3: -1010297175
+    Data4: -1188629233
+  Banks:
+  - {fileID: -2145461706221561477}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 86186
+  Length: 12460
 --- !u!114 &-656018610349732763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,7 +434,7 @@ MonoBehaviour:
     Data3: -1000014677
     Data4: -2134447916
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -206,6 +442,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 660
+--- !u!114 &-638364839293501560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.treeFalls1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.treeFalls1
+  Guid:
+    Data1: -898361963
+    Data2: 1246712035
+    Data3: -2047369802
+    Data4: -843220341
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4475
 --- !u!114 &-339715635786563270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,7 +488,7 @@ MonoBehaviour:
     Data3: -589502311
     Data4: -1985578339
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -252,10 +515,10 @@ MonoBehaviour:
     Data3: -1252909691
     Data4: -1747591510
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
@@ -273,8 +536,8 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 6280313855256579303}
-  - {fileID: -3419080074166138947}
+  - {fileID: -8171171916691204106}
+  - {fileID: -2145461706221561477}
   EditorEvents:
   - {fileID: -656018610349732763}
   - {fileID: -4607588368179606677}
@@ -289,12 +552,33 @@ MonoBehaviour:
   - {fileID: 3318339764726114875}
   - {fileID: -7269947272591476499}
   - {fileID: 4353524638860882905}
+  - {fileID: 8510043898260132693}
+  - {fileID: -3199477928344976367}
+  - {fileID: -1227078622991119807}
+  - {fileID: -7906763940005848505}
+  - {fileID: -4869753530637182528}
+  - {fileID: 5680996110565571136}
+  - {fileID: 4306833440503538678}
+  - {fileID: 2456789920869776484}
+  - {fileID: 4398828555196999314}
+  - {fileID: 1087402026116788134}
+  - {fileID: -2920782664603132040}
+  - {fileID: -702863121018381244}
+  - {fileID: -638364839293501560}
+  - {fileID: 4958885845018303169}
+  - {fileID: -6846423043205547273}
+  - {fileID: -4428548952220834846}
+  - {fileID: 2657505806331523304}
+  - {fileID: 5689080463527128061}
+  - {fileID: 4831707615720160761}
+  - {fileID: 3326661523190210812}
+  - {fileID: 4567684483916562734}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   StringsBanks:
-  - {fileID: 6280313855256579303}
-  cacheTime: 638108471674616497
+  - {fileID: -8171171916691204106}
+  cacheTime: 638140615270000000
   cacheVersion: 131601
 --- !u!114 &169102497291016056
 MonoBehaviour:
@@ -315,7 +599,7 @@ MonoBehaviour:
     Data3: 861707663
     Data4: -1091515597
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -323,6 +607,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 13426
+--- !u!114 &1087402026116788134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.flowersGrow
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.flowersGrow
+  Guid:
+    Data1: 189416586
+    Data2: 1086646011
+    Data3: 959313045
+    Data4: 1590343627
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5688
 --- !u!114 &2085849370804961814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,7 +653,7 @@ MonoBehaviour:
     Data3: -1313006659
     Data4: 954157563
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -350,6 +661,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 218410
+--- !u!114 &2456789920869776484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.AnimalFootStep1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.AnimalFootStep1
+  Guid:
+    Data1: 75610455
+    Data2: 1178444115
+    Data3: -1444566374
+    Data4: -1583657897
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3369
+--- !u!114 &2657505806331523304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.treeGrow
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.treeGrow
+  Guid:
+    Data1: -214817867
+    Data2: 1109677128
+    Data3: 2144071848
+    Data4: -1530091217
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10422
 --- !u!114 &3318339764726114875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,7 +734,7 @@ MonoBehaviour:
     Data3: 122019472
     Data4: -350798820
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
@@ -377,6 +742,60 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1230
+--- !u!114 &3326661523190210812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.RocksHitEachother2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.RocksHitEachother2
+  Guid:
+    Data1: -1817825575
+    Data2: 1213011495
+    Data3: 1423493023
+    Data4: -104877916
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3030
+--- !u!114 &4306833440503538678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BGM_Stage5
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BGM_Stage5
+  Guid:
+    Data1: 218338121
+    Data2: 1146787221
+    Data3: -28585802
+    Data4: -439360967
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 92125
 --- !u!114 &4353524638860882905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,15 +815,96 @@ MonoBehaviour:
     Data3: 1050275223
     Data4: -2091632146
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters:
   - {fileID: -6381462373277797295}
   MinDistance: 1
   MaxDistance: 20
   Length: 92130
+--- !u!114 &4398828555196999314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.treeFalls2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.treeFalls2
+  Guid:
+    Data1: -1748651420
+    Data2: 1270705908
+    Data3: 1530603692
+    Data4: 1919729310
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 7247
+--- !u!114 &4567684483916562734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BGM_Stage6
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BGM_Stage6
+  Guid:
+    Data1: -135813159
+    Data2: 1184234844
+    Data3: 1742064561
+    Data4: 466619859
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 92125
+--- !u!114 &4831707615720160761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.IceHit1
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.IceHit1
+  Guid:
+    Data1: 471170249
+    Data2: 1283020097
+    Data3: -844898928
+    Data4: 1462885386
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12460
 --- !u!114 &4957030434260876064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,15 +924,15 @@ MonoBehaviour:
     Data3: -154948944
     Data4: 1319336049
   Banks:
-  - {fileID: -3419080074166138947}
+  - {fileID: -2145461706221561477}
   IsStream: 1
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
   Length: 92130
---- !u!114 &6280313855256579303
+--- !u!114 &4958885845018303169
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -441,14 +941,102 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.fireStarts
   m_EditorClassIdentifier: 
-  Path: ../FMOD -  Musical Puzzle/musical puzzle/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638108471674616497
-  FileSizes:
-  - Name: Desktop
-    Value: 1394
-  Exists: 1
+  Path: event:/SFX/SFX.fireStarts
+  Guid:
+    Data1: -1629298538
+    Data2: 1245139150
+    Data3: -857869428
+    Data4: 808381288
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5848
+--- !u!114 &5680996110565571136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.WaterAppears
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.WaterAppears
+  Guid:
+    Data1: 1006085960
+    Data2: 1221140169
+    Data3: -1534343255
+    Data4: -1639034204
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 12460
+--- !u!114 &5689080463527128061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BGM/BGM_Stage4
+  m_EditorClassIdentifier: 
+  Path: event:/BGM/BGM_Stage4
+  Guid:
+    Data1: 584586951
+    Data2: 1256047015
+    Data3: -2109577546
+    Data4: 490653186
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 92125
+--- !u!114 &8510043898260132693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/SFX.fireSound
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/SFX.fireSound
+  Guid:
+    Data1: -1096365305
+    Data2: 1275735789
+    Data3: -1309997898
+    Data4: 395257089
+  Banks:
+  - {fileID: -2145461706221561477}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 88868
