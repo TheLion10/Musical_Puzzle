@@ -5,11 +5,11 @@ public class GameManager : MonoBehaviour
     public GameObject terrainLayer;
     public GameObject grassLayer;
     public GameObject[] emmiters;
-    private bool[] playingEmmiters = {false};
+    private bool[] playingEmmiters = {false, false, false, false, false};
 
     public void LoadGrassLayer()
     {
-        Invoke("RemoveTerrainLayer", 8);
+        Invoke("RemoveTerrainLayer", 6);
         grassLayer.SetActive(true);
     }
 
