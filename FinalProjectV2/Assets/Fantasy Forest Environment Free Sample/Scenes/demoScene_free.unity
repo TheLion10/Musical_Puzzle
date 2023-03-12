@@ -853,7 +853,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 76209813}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -1783,7 +1783,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 242941459}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -2129,7 +2129,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287650830}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -3447,18 +3447,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 527844789}
-  m_LocalRotation: {x: -0.3044174, y: 0.6382241, z: 0.6382241, w: 0.3044174}
-  m_LocalPosition: {x: 0, y: 0, z: 37.31}
+  m_LocalRotation: {x: -0.22571367, y: 0.67011446, z: 0.67011446, w: 0.22571367}
+  m_LocalPosition: {x: 0, y: 0, z: 35.88}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 287650831}
   m_Father: {fileID: 180287192}
   m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: -90, y: 129, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 142.77, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 32.9, y: 0.97}
+  m_AnchoredPosition: {x: 30.78, y: 0.79}
   m_SizeDelta: {x: 0.75, y: 0.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &527844791
@@ -4260,7 +4260,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 613039116}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -4821,7 +4821,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 688293513}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -7042,7 +7042,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 980282060}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -9484,7 +9484,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316873377}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -9779,15 +9779,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4279449019447086, guid: eded051879df4c147b9010199d240258, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.77
+      value: -7.65
       objectReference: {fileID: 0}
     - target: {fileID: 4279449019447086, guid: eded051879df4c147b9010199d240258, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -11.59
+      value: -13.57
       objectReference: {fileID: 0}
     - target: {fileID: 4279449019447086, guid: eded051879df4c147b9010199d240258, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 10.2
+      value: 10.23
       objectReference: {fileID: 0}
     - target: {fileID: 4279449019447086, guid: eded051879df4c147b9010199d240258, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11636,7 +11636,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550011171}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -12621,7 +12621,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1641099877
 Transform:
   m_ObjectHideFlags: 0
@@ -12849,7 +12849,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2594560142652217818, guid: 9df39b05caf013c46b53a85d2b242226, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.72
+      value: 20.336
       objectReference: {fileID: 0}
     - target: {fileID: 2594560142652217818, guid: 9df39b05caf013c46b53a85d2b242226, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12857,7 +12857,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2594560142652217818, guid: 9df39b05caf013c46b53a85d2b242226, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 42.98
+      value: 43.877
       objectReference: {fileID: 0}
     - target: {fileID: 2594560142652217818, guid: 9df39b05caf013c46b53a85d2b242226, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13916,7 +13916,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788587395}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -14315,7 +14315,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926947109}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -14539,7 +14539,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964135013}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -15166,7 +15166,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2091445738}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
@@ -15338,7 +15338,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2130991600}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 85aac1a9955702640b249bedfbafa630, type: 2}
   m_CullingMode: 0
